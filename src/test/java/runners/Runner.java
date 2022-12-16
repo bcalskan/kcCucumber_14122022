@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue= "stepDefinitions",
-        tags = "@config",
-        dryRun = false
+        tags = "@datatable",
+        dryRun = true
 
         /*
         dryRun = true --> zeigt nur fehlende Schritte im Code.
